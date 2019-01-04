@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>MyCountDownTimer.png</file>
+        <file>setting.png</file>
+        <file>settingDown.png</file>
+        <file>settingsBtn.png</file>
+        <file>screen.png</file>
+        <file>icons8setin.png</file>
+        <file>icons8setin2.png</file>
+        <file>icons8dialog.png</file>
+        <file>start.png</file>
+        <file>icons8settingsmain.png</file>
+        <file>hamburgerBtn.png</file>
+        <file>close.png</file>
+        <file>start2.png</file>
+        <file>hourglass/close.png</file>
+        <file>hourglass/show.png</file>
+        <file>imgActions/close.png</file>
+        <file>imgActions/show.png</file>
+        <file>imgActions/sleep.png</file>
+        <file>imgActions/restart.png</file>
+        <file>imgActions/shutdown.png</file>
+        <file>hourglass/stop.png</file>
+        <file>new/iconMessageBoxQt.png</file>
+        <file>imgActions/close_red.png</file>
+        <file>imgActions/hide.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>hourglass/bottom.png</file>
+        <file>hourglass/drop.png</file>
+        <file>hourglass/grey.png</file>
+        <file>hourglass/hourglass.png</file>
+        <file>hourglass/top.png</file>
+        <file>hourglass/minDrop.png</file>
+        <file>hourglass/startPause.png</file>
+        <file>new/MyCountDownTimer.svg</file>
+        <file>languages/en.qm</file>
+        <file>languages/ru.qm</file>
+        <file>imgActions/close_red.png</file>
+    </qresource>
+</RCC>
