@@ -8,13 +8,44 @@ description: |
   we live in tweetspace and your description wants to look good in the snap
   store.
 
-grade: devel # must be 'stable' to release into candidate/stable channels
+grade: stable # must be 'stable' to release into candidate/stable channels
 confinement: devmode # use 'strict' once you have the right plugs and slots
+architectures:
+  - build-on: amd64
 
+apps:
+   mycountdowntimer:
+     command: desktop-launch $SNAP/bin/mycountdowntimer
+     #desktop: share/applications/MyCountDownTimer.desktop
+     #plugs: [home, x11]
+     plugs:
+      - home
+      - desktop
+      - desktop-legacy
+      - gsettings
+      
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    qt-version: qt5
-    source: https://github.com/Night-Soft/MyCountDownTimer.git
-    plugin: qmake
-    source-type: git
+   mycountdowntimer:
+        after: [desktop-qt5]
+        qt-version: qt5
+        plugin:        qmake
+        project-files: ["MyCountDownTimer.pro"]
+        source:        .
+        #make-parameters: ["FLAVOR=qt5"]
+
+        build-packages:
+         - g++
+         # - libQt5QuickWidgets
+         # - libQt5Widgets
+         # - libQt5Multimedia
+         # - libQt5Gui
+         # - libQt5Qml
+         # - libQt5Core
+         # - libstdc++
+         # - libgcc_s
+         # - libc
+         # - libQt5Quick
+         # - libQt5Network
+        stage-packages:
+         - libc6 
+         
