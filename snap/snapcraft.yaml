@@ -34,14 +34,9 @@ parts:
         build-packages:
          - g++
         #
-        kconfigflavour: generic
-        kconfigs:
-          - CONFIG_DEBUG_INFO=n
         override-build: |
           cp debian/scripts/retpoline-extract-one \
             $SNAPCRAFT_PART_BUILD/scripts/ubuntu-retpoline-extract-one
           snapcraftctl build
-        firmware:
-          plugin: nil
-          stage-packages:
-            - libc6
+        stage-packages:
+         - libc6
