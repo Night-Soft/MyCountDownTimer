@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/actions/close.png</file>
+        <file>resources/actions/hide.png</file>
+        <file>resources/actions/restart.png</file>
+        <file>resources/actions/show.png</file>
+        <file>resources/actions/shutdown.png</file>
+        <file>resources/actions/sleep.png</file>
+        <file>resources/hourGlass/bottom.png</file>
+        <file>resources/hourGlass/grey.png</file>
+        <file>resources/hourGlass/hourglass.png</file>
+        <file>resources/hourGlass/minDrop.png</file>
+        <file>resources/hourGlass/top.png</file>
+        <file>resources/other/close.png</file>
+        <file>resources/other/hamburger.png</file>
+        <file>resources/other/iconMessageBoxQt.png</file>
+        <file>resources/other/screenPos.png</file>
+        <file>resources/other/settingChoice.png</file>
+        <file>resources/other/settingList.png</file>
+        <file>resources/other/settingsOpen.png</file>
+        <file>resources/other/start.png</file>
+        <file>resources/other/stop.png</file>
+        <file>resources/other/MyCountDownTimer.svg</file>
+    </qresource>
+</RCC>
