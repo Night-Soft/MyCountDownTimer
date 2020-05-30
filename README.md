@@ -1,13 +1,14 @@
 # MyCountDownTimer
 <div>
-  <p align="center">
-    <img align="left" src="./resources/other/MyCountDownTimer.svg" width="100" height="100">
-</p>
     <p align="center">
-    <img align="left" src="https://github.com/Night-Soft/readme/blob/master/MyCountDownTimer/ScreenshotTimer.png" width="150" height="200">
-</p>
+        <img src="./resources/other/MyCountDownTimer.svg" width="100" height="100">
+    </p>
+    <p align="center">
+        <img src="https://github.com/Night-Soft/readme/blob/master/MyCountDownTimer/ScreenshotTimer.png" width="150" height="200">
+        <img src="https://github.com/Night-Soft/readme/blob/master/MyCountDownTimer/ScreenshotTimerSettigs.png" width="150" height="200">
+    </p>
     <br>
-        <p>MyCountDownTimer app for Linux, to control your device power managment when timer is finished!</p> 
+    <span>MyCountDownTimer app for Linux, to control your device power managment when timer is finished!</span>
     <h1 id="headAllows" class="title-about title">The app allows to:</h1>
     <ul class="ul-about">
         <li class="li-about">Shutdown.</li>
@@ -20,5 +21,4 @@
         screen prior to show. Add app to auotorun. Run command. Keep app always on top.
         <br>
         <br>
-</div>
 </div>
